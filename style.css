@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(240, 18, 18);
+  font-family: "Rubik Bubbles", system-ui;
+}
+h1 {
+  color: rgb(255, 192, 27);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ed9e70;
+  background-color: #ffd92c;
+}
+
+div{
+  border: 10px solid #ed9e70;
+}
+
+#video_block{
+  text-align: center;
+  display: inline-block;
+}
+iframe{
+  width: 49%;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #ed9e70;
+}
